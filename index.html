@@ -14,11 +14,14 @@
             <div class="container-fluid">
                 <div id="search-container" class="d-flex flex-row mb-3">
                     <div class="p-2">
-                        <a class="navbar-brand">Navbar</a>
+                        <a class="navbar-brand">
+                            <i class="fa-solid fa-envelopes-bulk"></i>
+                            MyMail
+                        </a>
                     </div>
                     <div id="search" class="p-2">
                         <form class="d-flex" role="search">
-                            <input id="search-box" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <input id="search-box" class="form-control me-2" type="search" placeholder="Search mail" aria-label="Search">
                             <button id="search-btn" class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </form>
                     </div>
@@ -41,7 +44,35 @@
             </div> 
         </nav>
     </header>
-    
+    <section id="main-body">
+
+        <div id="side-menu">
+            <ul>
+                <li>
+                <div id="new">
+                    <i class="fa-solid fa-pen-to-square"></i>New
+                </div>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-inbox"></i> Inbox</a>
+                </li>
+                    <a href="#"><li><i class="fa-solid fa-paper-plane"></i> Sent</a>
+                </li>
+                    <a href="#"><i class="fa-solid fa-circle-exclamation"></i> Junk</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-trash-can"></i> Deleted</a>
+                </li> 
+                <li>
+                    <a href="#"><i class="fa-solid fa-note-sticky"></i> Drafts</a>
+                </li>                  
+            </ul>
+        </div>
+        <div id="mail-list">
+
+        </div>
+
+    </section>
     <!-- Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/19e39a1d6d.js" crossorigin="anonymous"></script>
     <!-- Link to script.js-->

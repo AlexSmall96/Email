@@ -2,6 +2,9 @@ body{
     background:#f6f8fc; ;
 }
 
+header{
+    margin:10px;
+}
 #search{
     width:75%;
 }
@@ -20,4 +23,41 @@ body{
     background: lightskyblue;
     text-align: center;
 }
+
+#mail-list{
+    height:600px;
+    background: white;
+    border-radius: 2%;
+    width:70%;
+    float: right;
+    margin-right:20px;
+}
+
+#side-menu{
+    height:600px;
+    float: left;
+    width:20%;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+#new{
+    background:lightblue;
+    border-radius:5%;
+    text-align: center;
+    height:50px;
+    padding:15px;
+    margin-bottom: 10px;
+}
+#side-menu ul{
+    list-style-type: none;
+    margin:auto;
+}
+
+#side-menu a{
+    text-decoration: none;
+    color:black;
+}
+
+
 
