@@ -9,3 +9,15 @@ body{
 #search-container{
     width:80%;
 }
+
+#logout{
+    border-style: double;
+    border-color: lightgray;
+    border-radius: 100%;
+    width:36px;
+    height:36px;
+    padding: 4px;
+    background: lightskyblue;
+    text-align: center;
+}
+
