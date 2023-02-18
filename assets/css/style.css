@@ -2,3 +2,10 @@ body{
     background:#f6f8fc; ;
 }
 
+#search{
+    width:75%;
+}
+
+#search-container{
+    width:80%;
+}
