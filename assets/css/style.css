@@ -59,11 +59,35 @@ header{
     color:black;
 }
 
-#mail-row{
+.mail-row{
     border-bottom-style: solid;
     border-color: lightgrey;
     border-width: 0.6px;
     margin-left: 10px;
     margin-right: 10px;
+    height:25px;
+    overflow: hidden;
 }
 
+#mail-nav{
+    margin-left: 20px;
+    margin-right: 20px;
+    height:50px;
+}
+
+.folder-btn{
+    width:100%;
+    text-align: left;
+    background: white;
+    border-style: none;
+}
+
+#folder-row{
+    border-bottom-style: solid;
+    border-color: lightgrey;
+    border-width: 0.6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:50px;
+    padding-left: 0xp;
+}
