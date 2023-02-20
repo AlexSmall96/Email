@@ -5,6 +5,11 @@ body{
 header{
     margin:10px;
 }
+
+#logo{
+    width:20%;
+    padding:10px;
+}
 #search{
     width:75%;
 }
@@ -25,18 +30,19 @@ header{
 }
 
 #mail-list{
-    height:600px;
+    height:300px;
     background: white;
     border-radius: 2%;
-    width:70%;
+    width:80%;
     float: right;
     margin-right:20px;
+    overflow: scroll;
 }
 
 #side-menu{
     height:600px;
     float: left;
-    width:20%;
+    width:15%;
     margin-left:20px;
     margin-top:10px;
 }
@@ -63,16 +69,26 @@ header{
     border-bottom-style: solid;
     border-color: lightgrey;
     border-width: 0.6px;
-    margin-left: 10px;
     margin-right: 10px;
-    height:25px;
+    height:35px;
     overflow: hidden;
+    padding: 5px;
+}
+
+.time{
+    font-size: small;
+    text-align: right;
 }
 
 #mail-nav{
-    margin-left: 20px;
     margin-right: 20px;
     height:50px;
+}
+
+.pages{
+    margin-left:10px;
+    margin-right: 10px;
+    font-size: small;
 }
 
 .folder-btn{
@@ -86,8 +102,8 @@ header{
     border-bottom-style: solid;
     border-color: lightgrey;
     border-width: 0.6px;
-    margin-left: 10px;
     margin-right: 10px;
     height:50px;
     padding-left: 0xp;
 }
+
