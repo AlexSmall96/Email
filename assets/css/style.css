@@ -3,10 +3,9 @@ header{
 }
 
 #logo, #nav{
-    height:100px;
+    height:70px;
     display: inline-block;
     margin:auto;
-    padding-top:40px;
 }
 
 #nav{
@@ -22,6 +21,7 @@ header{
     float:left;
     margin-right:0px;
     text-align: center;
+    padding-top: 20px;
 }
 
 #side-menu, #mail-list{
@@ -46,16 +46,13 @@ header{
 }
 
 #search-mail{
-    width:80%;
+    width:70%;
 }
 .form-control{
     display:inline-block;
     width:70%;
 }
 
-.navbar{
-    --bs-navbar-padding-y: 0;
-}
 .navbar-nav{
     flex-direction: row;
 }
@@ -64,7 +61,22 @@ header{
     margin:5px;
 }
 
+@media only screen and (max-width: 436px) {
+    #logo, #nav, #header-nav{
+      height: 110px;
+    }
+    #search-mail{
+        width:100%;
+    }
+    #header-nav{
+        display:flex;
+        flex-flow: column;
+      }
+      #search-mail{order:2;}
+      #header-icons{order:1;}
 
+    
+  }
 
 
 
