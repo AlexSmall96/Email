@@ -7,7 +7,6 @@ header{
     display: inline-block;
     margin:auto;
     padding-top:40px;
-    text-align: center;
 }
 
 #nav{
@@ -22,13 +21,13 @@ header{
     background-color: red;
     float:left;
     margin-right:0px;
+    text-align: center;
 }
 
 #side-menu, #mail-list{
     height:500px;
     display: inline-block;
     margin:auto;
-    padding-top:200px;
     text-align: center;
 }
 
@@ -45,6 +44,29 @@ header{
     float:right;
     margin-left:0px;
 }
+
+#search-mail{
+    width:80%;
+}
+.form-control{
+    display:inline-block;
+    width:70%;
+}
+
+.navbar{
+    --bs-navbar-padding-y: 0;
+}
+.navbar-nav{
+    flex-direction: row;
+}
+
+#header-icons li{
+    margin:5px;
+}
+
+
+
+
 
 
 
