@@ -1,0 +1,50 @@
+header{
+    width:100%;
+}
+
+#logo, #nav{
+    height:100px;
+    display: inline-block;
+    margin:auto;
+    padding-top:40px;
+    text-align: center;
+}
+
+#nav{
+    width:82%;
+    background-color: green;
+    float:right;
+    margin-left:0px;
+}
+
+#logo{
+    width:18%;
+    background-color: red;
+    float:left;
+    margin-right:0px;
+}
+
+#side-menu, #mail-list{
+    height:500px;
+    display: inline-block;
+    margin:auto;
+    padding-top:200px;
+    text-align: center;
+}
+
+#side-menu{
+    width:18%;
+    background-color:pink;
+    float:left;
+    margin-right:0px;
+}
+
+#mail-list{
+    width:82%;
+    background-color: lightgreen;
+    float:right;
+    margin-left:0px;
+}
+
+
+
