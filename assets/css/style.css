@@ -41,7 +41,7 @@ header{
     display: inline-block;
     margin:auto;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 3%;
 }
 
 #side-menu{
@@ -49,6 +49,7 @@ header{
     float:left;
     margin-right:0px;
     padding-top:20px;
+    text-align: right;
 }
 .count{
     font-size: xx-small;
@@ -72,11 +73,15 @@ header{
     flex-direction: row;
 }
 
+#nav ul{
+    margin-right:10px;
+}
+
 #header-icons li{
     margin:5px;
 }
 
-@media only screen and (max-width: 435px) {
+@media only screen and (max-width: 480px) {
     #search-mail{
         width:50%;
     }
@@ -85,7 +90,7 @@ header{
         display:inline-block;
         width:70%;
         height:25px;
-        font-size: small;
+        font-size: x-small;
     }
 
     #search-button{
@@ -106,6 +111,37 @@ header{
 #mail-list{
     background-color: white;
 }
+
+#mail-list li{
+    padding-left:15px;
+}
+
+#header-icons{
+    padding-right:7px;
+    font-size: small;
+}
+
+.count{
+    float:right;
+}
+
+
+@media only screen and (max-width: 715px) {
+    .count{
+        display:none;
+    }
+    #logo{
+        padding-right:10px;
+        padding-left:10px;
+    }
+}
+
+@media only screen and (max-width: 840px) {
+    .name{
+        font-size: xx-small
+    }
+}
+
 ul{
     list-style-type: none;
     text-align: left;
@@ -143,7 +179,27 @@ a{
 
 #new-text{
     display: inline;
-    margin-left: 13px;
+    justify-content: center;
 }
 
+@media only screen and (max-width: 435px) {
+    #mail-list li{
+        padding-left:8px;
+    }
 
+    .name{
+        display:none;
+    }
+    
+    #logo{
+        font-size:small;
+    }
+    #new-text{
+        display: none;
+    }
+
+    #new{
+        height: 25px;
+        padding-top: 2px;
+    }
+}
