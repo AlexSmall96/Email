@@ -40,3 +40,30 @@
                     <a href="#"><i class="fa-solid fa-note-sticky"></i> Drafts</a>
                 </li>                  
             </ul>
+
+
+            <div id="mail-list">
+                <nav class="navbar">
+                    <ul id="header-icons" class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                          <input type="checkbox">
+                        </li>
+                        <li class="nav-item">
+                          <i class="fa-solid fa-rotate-right"></i>
+                        </li>
+                        <li class="nav-item">
+                          <i class="fa-solid fa-ellipsis-vertical"></i>
+                        </li>
+                      </ul>
+                <ul id="header-icons" class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">1 - 50 of 20,000</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                    </li>
+                  </ul>
+            </nav>
