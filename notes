@@ -18,3 +18,25 @@
                     <a href="#"><i class="fa-solid fa-note-sticky"></i> Drafts</a>
                 </li>                  
             </ul>
+
+            <ul>
+                <li>
+                  <button type="button" class="btn btn-info">
+                    <i class="fa-solid fa-pen-to-square"></i> New
+                  </button>
+                    
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-inbox"></i> Inbox</a>
+                </li>
+                    <a href="#"><li><i class="fa-solid fa-paper-plane"></i> Sent</a>
+                </li>
+                    <a href="#"><i class="fa-solid fa-circle-exclamation"></i> Junk</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-solid fa-trash-can"></i> Deleted</a>
+                </li> 
+                <li>
+                    <a href="#"><i class="fa-solid fa-note-sticky"></i> Drafts</a>
+                </li>                  
+            </ul>

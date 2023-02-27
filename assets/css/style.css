@@ -26,6 +26,15 @@ header{
     padding-top: 20px;
 }
 
+#search-button{
+   
+    align-items: center;
+    justify-content: center;
+}
+
+#logout{
+    border-radius: 50%;
+}
 
 #side-menu, #mail-list{
     height:500px;
@@ -39,8 +48,11 @@ header{
     width:18%;
     float:left;
     margin-right:0px;
+    padding-top:20px;
 }
-
+.count{
+    font-size: xx-small;
+}
 #mail-list{
     width:82%;
     float:right;
@@ -49,9 +61,8 @@ header{
 
 #search-mail{
     width:70%;
-    text-align: center;
+    
 }
-
 .form-control{
     display:inline-block;
     width:70%;
@@ -78,17 +89,17 @@ header{
     }
 
     #search-button{
+        display: inline-flex;
         width:10px;
         height:25px;
-        display:inline-flex;
+        display: inline-flex;
         align-items: center;
         justify-content: center;
-        
     }
 
     #search-button i{
         font-size: small;
-        margin:auto;
+        margin:auto
     }
   }
 
@@ -103,6 +114,36 @@ ul{
 a{
     text-decoration: none;
     color: black;
+}
+
+#inbox-link{
+    background-color:#88d7eb;
+}
+
+#side-menu .row{
+    margin-right: 5px;
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
+    font-size: small;
+}
+
+#new{
+    background-color:#c8f0f7;
+    width:50%;
+    height:50px;
+    padding-top: 15px;
+    margin-bottom: 10px;
+    margin-left:7px;
+    text-align: left;
+    padding-left:6px;
+    font-size: small;
+    border-radius: 20%;
+    
+}
+
+#new-text{
+    display: inline;
+    margin-left: 13px;
 }
 
 
