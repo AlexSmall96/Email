@@ -22,7 +22,7 @@
             <nav id="header-nav" class="navbar navbar-light bg-light">
                 <form id="search-mail" class="form-inline">
                   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  <button id="search-button" class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
                 <ul id="header-icons" class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
@@ -34,6 +34,9 @@
                     <li class="nav-item">
                       <a class="nav-link" href="#"><i class="fa-solid fa-calendar-days"></i></a>
                     </li>
+                    <li class="nav-item">
+                      <button type="button" class="btn btn-primary btn-sm">A</button>
+                    </li>
                   </ul>
             </nav>
         </div>
@@ -41,11 +44,32 @@
 
     <section>
         <div id="side-menu">
-            side menu
-            <button type="button" class="btn btn-primary btn-sm">A</button>
+          
+          <ul>
+            <li>
+              <button type="button" class="btn btn-info">
+                <i class="fa-solid fa-pen-to-square"></i>New
+              </button>
+                
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-inbox"></i> Inbox</a>
+            </li>
+                <a href="#"><li><i class="fa-solid fa-paper-plane"></i> Sent</a>
+            </li>
+                <a href="#"><i class="fa-solid fa-circle-exclamation"></i> Junk</a>
+            </li>
+            <li>
+                <a href="#"><i class="fa-solid fa-trash-can"></i> Deleted</a>
+            </li> 
+            <li>
+                <a href="#"><i class="fa-solid fa-note-sticky"></i> Drafts</a>
+            </li>                  
+        </ul>
+            
         </div>
         <div id="mail-list">
-                <nav class="navbar navbar-light bg-light">
+                <nav class="navbar">
                     <ul id="header-icons" class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
                           <input type="checkbox">

@@ -1,3 +1,7 @@
+body{
+    background-color: #f6f8fc;
+}
+
 header{
     width:100%;
 }
@@ -10,44 +14,44 @@ header{
 
 #nav{
     width:82%;
-    background-color: green;
     float:right;
     margin-left:0px;
 }
 
 #logo{
     width:18%;
-    background-color: red;
     float:left;
     margin-right:0px;
     text-align: center;
     padding-top: 20px;
 }
 
+
 #side-menu, #mail-list{
     height:500px;
     display: inline-block;
     margin:auto;
     text-align: center;
+    border-radius: 5%;
 }
 
 #side-menu{
     width:18%;
-    background-color:pink;
     float:left;
     margin-right:0px;
 }
 
 #mail-list{
     width:82%;
-    background-color: lightgreen;
     float:right;
     margin-left:0px;
 }
 
 #search-mail{
     width:70%;
+    text-align: center;
 }
+
 .form-control{
     display:inline-block;
     width:70%;
@@ -61,24 +65,44 @@ header{
     margin:5px;
 }
 
-@media only screen and (max-width: 436px) {
-    #logo, #nav, #header-nav{
-      height: 110px;
-    }
+@media only screen and (max-width: 435px) {
     #search-mail{
-        width:100%;
+        width:50%;
     }
-    #header-nav{
-        display:flex;
-        flex-flow: column;
-      }
-      #search-mail{order:2;}
-      #header-icons{order:1;}
 
-    
+    .form-control{
+        display:inline-block;
+        width:70%;
+        height:25px;
+        font-size: small;
+    }
+
+    #search-button{
+        width:10px;
+        height:25px;
+        display:inline-flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    #search-button i{
+        font-size: small;
+        margin:auto;
+    }
   }
 
+#mail-list{
+    background-color: white;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+}
 
-
+a{
+    text-decoration: none;
+    color: black;
+}
 
 
