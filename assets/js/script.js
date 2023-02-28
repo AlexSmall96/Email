@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     for (let email of emails){
         email.addEventListener("click", function(){
-            email.style.fontWeight = "normal";
-            email.style.backgroundColor = "#f5f8fc";
+            this.style.fontWeight = "normal";
+            this.style.backgroundColor = "#f5f8fc";
         });
     }
 

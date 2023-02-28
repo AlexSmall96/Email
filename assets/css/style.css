@@ -254,3 +254,9 @@ a{
 #mail-header-icons{
     font-size: xx-small;
 }
+
+@media (min-width: 500px){
+.container, .container-md, .container-sm {
+    max-width:3000px;
+}
+}
