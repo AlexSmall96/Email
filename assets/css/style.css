@@ -12,14 +12,20 @@ header{
     margin:auto;
 }
 
-#nav{
+.logo-width{
+    width:18%;
+}
+
+.main-width{
     width:82%;
+}
+
+#nav{
     float:right;
     margin-left:0px;
 }
 
 #logo{
-    width:18%;
     float:left;
     margin-right:0px;
     text-align: center;
@@ -48,7 +54,6 @@ header{
 }
 
 #side-menu{
-    width:18%;
     float:left;
     margin-right:0px;
     padding-top:20px;
@@ -58,7 +63,6 @@ header{
     font-size: xx-small;
 }
 #mail-list{
-    width:82%;
     float:right;
     margin-left:0px;
 }
@@ -125,7 +129,7 @@ header{
     padding-left:15px;
 }
 
-#header-icons{
+.icons-list li{
     padding-right:7px;
     font-size: small;
 }
@@ -195,6 +199,20 @@ a{
     justify-content: center;
 }
 
+.row>*{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.mail-preview{
+    font-weight: bold;
+}
+
+#mail-list .row{
+    border-bottom-style: solid;
+    border-bottom-color:#ebeef2;
+    border-width: 1px;
+}
 @media only screen and (max-width: 435px) {
     #mail-list li{
         padding-left:8px;
@@ -233,6 +251,6 @@ a{
     font-size:small;
 }
 
-#header-icons{
+#mail-header-icons{
     font-size: xx-small;
 }
