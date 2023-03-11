@@ -41,5 +41,19 @@ document.addEventListener("DOMContentLoaded", function() {
             this.getElementsByClassName("time")[0].innerHTML  = `14:52pm`;
         });
     };
+    
+    const folders = document.getElementsByClassName("side-menu-row");
+    
+    for (let folder of folders){
+        folder.addEventListener("click", function(){
+            for (let fold of folders){
+                if (this === fold){
+                    this.style.backgroundColor = "#88d7eb";
+                } else {
+                    fold.style.backgroundColor ="#f6f8fc"
+                }
+            }
+        })
+    }
 
 });
