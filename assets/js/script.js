@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
         row.addEventListener("mouseenter", function(){
             this.style.boxShadow = "0px 2px 2px grey";
-            this.getElementsByClassName("time")[0].innerHTML = `<i class="fa-solid fa-trash-can"></i><i class="fa-solid fa-envelope-open"></i>`
+            this.getElementsByClassName("time")[0].innerHTML = `<i class="fa-solid fa-trash-can"></i><i class="fa-solid fa-envelope-open"></i><i class="fa-solid fa-circle-exclamation"></i>`
             this.getElementsByClassName("time")[0].style.padding = "2px";
         });
    
